@@ -1,0 +1,42 @@
+.Topheader{
+   width: 100%;
+   display: inline-flex;
+   align-content: center;
+   
+   
+}
+.jk {
+     font-size: 20px;
+     text-align: center;
+   
+}
+.gk {
+    font-size: 20px;
+    text-align: center;
+  
+}
+.Fiimage{
+    width: 150px;
+}
+.Fimage{
+    margin: 10px;
+    
+}
+.Maintext{
+    margin: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-self: center;
+    flex-grow: 8;
+
+    
+    
+}
+
+.Banner{
+    width: 100%;
+    height: 50%;
+}
+.Bannerimg{
+    width: 100%;
+}
