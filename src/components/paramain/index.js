@@ -1,20 +1,19 @@
 import React from 'react';
 import Navigation from '../navigation';
-import Topheader from './topheader';
-import Banner from './Banner'
-import Parameters from './parameters'
+import Banner from './banner';
+import Parainfo from './info';
+
 import Footer from 'C:/Users/mk/Downloads/jkirfproject/src/components/footer.js'
 
-function Homepage(){
+function Paramain(){
     return(
         <>
-        <Topheader/>
         <Navigation/>
         <Banner/>
-        <Parameters/>
+        <Parainfo/>
         <Footer/>
         </>
     )
 }
 
-export default Homepage;
+export default Paramain;

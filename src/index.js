@@ -6,7 +6,12 @@ import reportWebVitals from './reportWebVitals';
 
 
 
-import './assets/css/global.css'
+import './assets/css/homepage.css'
+import './assets/css/about.css'
+import './assets/css/paramain.css'
+import './assets/css/document.css'
+import './assets/css/ranking.css'
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

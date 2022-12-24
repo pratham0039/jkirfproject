@@ -6,25 +6,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CollapsibleExample() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
-            <Nav.Link href="#pricing">Parameters</Nav.Link>
-            <Nav.Link href="#pricing">Documents</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/paramain">Parameters</Nav.Link>
+            <Nav.Link href="/document">Documents</Nav.Link>
             <Nav.Link href="#pricing">Notification</Nav.Link>
             <Nav.Link href="#pricing">FAQs</Nav.Link>
             <Nav.Link href="#pricing">Contact</Nav.Link>
             <NavDropdown title="Rankings" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="/ranking">2022</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                2021
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">2020</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                2019
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">2018</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
