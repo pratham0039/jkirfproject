@@ -9,6 +9,8 @@ import About from './components/about';
 import Paramain from './components/paramain';
 import Document from './components/document';
 import Rankings from './components/rankings';
+import Faq from './components/faq';
+import Notification from './components/notification';
 
 
 function App() {
@@ -21,7 +23,8 @@ function App() {
         <Route exact path="/paramain" element={<Paramain/>}/>
         <Route exact path="/document" element={<Document/>}/>
         <Route exact path="/ranking" element={<Rankings/>}/>
-        
+        <Route exact path="/faq" element={<Faq/>}/>
+        <Route exact path="/notification" element={<Notification/>}/>
         
       </Routes>
     

@@ -16,8 +16,8 @@ function CollapsibleExample() {
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/paramain">Parameters</Nav.Link>
             <Nav.Link href="/document">Documents</Nav.Link>
-            <Nav.Link href="#pricing">Notification</Nav.Link>
-            <Nav.Link href="#pricing">FAQs</Nav.Link>
+            <Nav.Link href="/notification">Notification</Nav.Link>
+            <Nav.Link href="/faq">FAQs</Nav.Link>
             <Nav.Link href="#pricing">Contact</Nav.Link>
             <NavDropdown title="Rankings" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/ranking">2022</NavDropdown.Item>
